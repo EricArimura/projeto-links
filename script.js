@@ -1,0 +1,19 @@
+function turnLight() {
+  const html = document.documentElement
+
+  html.classList.toggle("light")
+
+  const img = document.querySelector("#profile img")
+  
+  if(html.classList.contains("light")) {
+    img.setAttribute("src", "./assets/perfil-light.png")
+  } else {
+    img.setAttribute("src", "./assets/perfil.png")
+  }
+}
+
+let botaoSwitch = document.getElementById("switch")
+
+botaoSwitch.onclick = function () {
+  turnLight()
+}
