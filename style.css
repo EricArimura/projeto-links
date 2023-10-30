@@ -34,7 +34,7 @@ body {
     var(--bg-color1),
     var(--bg-color2),
     var(--bg-color3)
-  );
+  ) no-repeat top center/cover;
 }
 
 body * {
@@ -179,4 +179,11 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* media queries */
+@media (min-width: 1440px) {
+  body {
+    height: 100vh;
+  }
 }
