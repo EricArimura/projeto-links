@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O My links é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://github.com/EricArimura/projeto-links)
+- [Acesse o projeto finalizado, online](https://projeto-links-steel.vercel.app/)
 
 ## :memo: Licença
 
